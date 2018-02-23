@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.trnclong.intent_ptbacnhat.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tieuDe"
+        android:gravity="center"
+        android:textSize="@dimen/largeText"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="@dimen/marginTop"
+        android:padding="@dimen/padding"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginRight="@dimen/marginRight"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        android:layout_marginTop="@dimen/marginTop"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginRight="@dimen/marginRight">
+
+        <TextView
+            android:textSize="@dimen/smallText"
+            android:text="@string/nhapa"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/heSoA"
+            android:layout_weight="7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        android:layout_marginTop="@dimen/marginTop"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginRight="@dimen/marginRight"
+        android:layout_marginBottom="@dimen/marginBottom">
+
+        <TextView
+            android:textSize="@dimen/smallText"
+            android:text="@string/nhapb"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/heSoB"
+            android:layout_weight="7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnKetQua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ketQua"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/largeText"
+        android:background="@color/colorRed"
+        android:padding="@dimen/padding"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginRight="@dimen/marginRight"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginRight="@dimen/marginRight"
+        android:layout_marginTop="@dimen/marginTop"
+        >
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/reset"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/smallText"
+            android:background="@color/colorPrimaryDark"
+            android:padding="@dimen/padding"
+            />
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/exit"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/smallText"
+            android:background="@color/colorPrimaryDark"
+            android:padding="@dimen/padding"
+            android:layout_marginLeft="@dimen/marginLeft"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

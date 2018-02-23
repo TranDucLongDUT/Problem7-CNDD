@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Phương Trình Bậc Nhất</string>
+    <string name="tieuDe">Giải Phương Trình Bậc Nhất </string>
+    <string name="tieuDeKetQua">Kết Quả Giải Phương Trình Bậc Nhất </string>
+    <string name="ketQua">Kết Quả </string>
+    <string name="reset">Reset </string>
+    <string name="exit">EXIT </string>
+    <string name="back">BACK </string>
+    <string name="nhapa">Nhập số a: </string>
+    <string name="nhapb">Nhập số b: </string>
+
+
+
+</resources>
